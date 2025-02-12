@@ -1,0 +1,13 @@
+i1=float(input("Enter price of item 1: "))
+q1=int(input("Enter quantity of item 1: "))
+i2=float(input("Enter price of item 2: "))
+q2=int(input("Enter quantity of item 2: "))
+i3=float(input("Enter price of item 3: "))
+q3=int(input("Enter quantity of item 3: "))
+cost=i1*q1+i2*q2+i3*q3
+if(cost>50):
+  dis=cost*(0.1)
+  fcost=cost-dis
+  print(f"Final cost is : {fcost : .2f}")
+else:
+  print(f"Final cost is : {cost : .2f}")
